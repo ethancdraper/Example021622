@@ -1,0 +1,54 @@
+Last login: Wed Feb 16 11:13:05 on ttys000
+ethandraper@Ethans-MacBook-Air ~ % date
+Wed 16 Feb 2022 11:13:13 AST
+ethandraper@Ethans-MacBook-Air ~ % cal
+   February 2022      
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28                 
+                      
+ethandraper@Ethans-MacBook-Air ~ % pwd
+/Users/ethandraper
+ethandraper@Ethans-MacBook-Air ~ % ls
+<Return>	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+ethandraper@Ethans-MacBook-Air ~ % cd Desktop
+ethandraper@Ethans-MacBook-Air Desktop % ls
+CEWIL		Clinical	Grant		NSERC		WelshLit
+CFXU		ColtenBoushie	HumanNeuro	Personal	XPsyc
+CSS		Fall2021	MRI		RefPhotos
+ethandraper@Ethans-MacBook-Air Desktop % cd MRI
+ethandraper@Ethans-MacBook-Air MRI % ls
+499LabWork
+Mazerolle PSYC 499 New Course Proposal Form_FINALDEC2018.docx
+Mazerolle PSYC 499 Syllabus 2022.docx
+MazerolleLab
+Reading
+ethandraper@Ethans-MacBook-Air MRI % cd 499LabWork
+ethandraper@Ethans-MacBook-Air 499LabWork % ls
+GitHub
+ethandraper@Ethans-MacBook-Air 499LabWork % cd GitHub
+ethandraper@Ethans-MacBook-Air GitHub % ls
+Example021622		Shell-Scripting-499	desktop-tutorial
+RendekShellScripting	Task1234
+ethandraper@Ethans-MacBook-Air GitHub % cd Example021622
+ethandraper@Ethans-MacBook-Air Example021622 % ls
+task1234	task1234.sh
+ethandraper@Ethans-MacBook-Air Example021622 % chmod +x task1234.sh
+ethandraper@Ethans-MacBook-Air Example021622 % ./task1234.sh
+Wed 16 Feb 2022 11:22:53 AST
+   February 2022      
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28                 
+                      
+/Users/ethandraper/Desktop/MRI/499LabWork/GitHub/Example021622
+task1234	task1234.sh
+ethandraper@Ethans-MacBook-Air Example021622 % 
+
