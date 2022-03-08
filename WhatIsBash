@@ -1,4 +1,4 @@
-Last login: Tue Mar  8 09:56:07 on ttys000
+Last login: Tue Mar  8 13:57:19 on ttys000
 ethandraper@Ethans-MacBook-Air ~ % which bash
 /bin/bash
 ethandraper@Ethans-MacBook-Air ~ % pwd
@@ -27,13 +27,18 @@ Example021622		Shell-Scripting-499	desktop-tutorial
 RendekShellScripting	Task1234
 ethandraper@Ethans-MacBook-Air GitHub % cd Example021622
 ethandraper@Ethans-MacBook-Air Example021622 % ls
-Reflection	WhatIsBash	task1234	task1234.sh
-ethandraper@Ethans-MacBook-Air Example021622 % chmod + x task1234.sh
-chmod: x: No such file or directory
-ethandraper@Ethans-MacBook-Air Example021622 % Task1234.sh
-zsh: command not found: Task1234.sh
-ethandraper@Ethans-MacBook-Air Example021622 % chmod + x Task1234.sh
-chmod: x: No such file or directory
-ethandraper@Ethans-MacBook-Air Example021622 % chmod + x task1234
-chmod: x: No such file or directory
+Reflection	Task1234BASH	WhatIsBash	task1234	task1234.sh
+ethandraper@Ethans-MacBook-Air Example021622 % chmod +x Task1234BASH
+ethandraper@Ethans-MacBook-Air Example021622 % ./Task1234BASH
+Tue  8 Mar 2022 13:58:44 AST
+     March 2022
+Su Mo Tu We Th Fr Sa
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30 31
+
+/Users/ethandraper/Desktop/MRI/499LabWork/GitHub/Example021622
+Reflection	Task1234BASH	WhatIsBash	task1234	task1234.sh
 ethandraper@Ethans-MacBook-Air Example021622 %
