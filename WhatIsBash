@@ -1,6 +1,39 @@
-Last login: Tue Mar  8 09:41:43 on ttys001
+Last login: Tue Mar  8 09:56:07 on ttys000
 ethandraper@Ethans-MacBook-Air ~ % which bash
 /bin/bash
-ethandraper@Ethans-MacBook-Air ~ % task1234.sh
-zsh: command not found: task1234.sh
-ethandraper@Ethans-MacBook-Air ~ % 
+ethandraper@Ethans-MacBook-Air ~ % pwd
+/Users/ethandraper
+ethandraper@Ethans-MacBook-Air ~ % ls
+<Return>	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+ethandraper@Ethans-MacBook-Air ~ % cd Desktop
+ethandraper@Ethans-MacBook-Air Desktop % ls
+CEWIL		Clinical	Grant		NSERC		WelshLit
+CFXU		ColtenBoushie	HumanNeuro	Personal	XPsyc
+CSS		Fall2021	MRI		RefPhotos
+ethandraper@Ethans-MacBook-Air Desktop % cd MRI
+ethandraper@Ethans-MacBook-Air MRI % ls
+499LabWork
+Mazerolle PSYC 499 New Course Proposal Form_FINALDEC2018.docx
+Mazerolle PSYC 499 Syllabus 2022.docx
+MazerolleLab
+Reading
+ethandraper@Ethans-MacBook-Air MRI % cd 499LabWork
+ethandraper@Ethans-MacBook-Air 499LabWork % ls
+GitHub
+ethandraper@Ethans-MacBook-Air 499LabWork % cd GitHub
+ethandraper@Ethans-MacBook-Air GitHub % ls
+Example021622		Shell-Scripting-499	desktop-tutorial
+RendekShellScripting	Task1234
+ethandraper@Ethans-MacBook-Air GitHub % cd Example021622
+ethandraper@Ethans-MacBook-Air Example021622 % ls
+Reflection	WhatIsBash	task1234	task1234.sh
+ethandraper@Ethans-MacBook-Air Example021622 % chmod + x task1234.sh
+chmod: x: No such file or directory
+ethandraper@Ethans-MacBook-Air Example021622 % Task1234.sh
+zsh: command not found: Task1234.sh
+ethandraper@Ethans-MacBook-Air Example021622 % chmod + x Task1234.sh
+chmod: x: No such file or directory
+ethandraper@Ethans-MacBook-Air Example021622 % chmod + x task1234
+chmod: x: No such file or directory
+ethandraper@Ethans-MacBook-Air Example021622 %
