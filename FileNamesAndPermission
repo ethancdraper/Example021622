@@ -1,4 +1,9 @@
 Last login: Tue Mar  8 15:16:13 on ttys001
 ethandraper@Ethans-MacBook-Air ~ % file Task12345BASH.sh
 Task12345BASH.sh: Bourne-Again shell script text executable, ASCII text
+ethandraper@Ethans-MacBook-Air ~ % cp Task12345BASH.sh 0_xvz
+ethandraper@Ethans-MacBook-Air ~ % file 0_xvz
+0_xvz: Bourne-Again shell script text executable, ASCII text
+ethandraper@Ethans-MacBook-Air ~ % file 0_xvz
+0_xvz: ASCII text
 ethandraper@Ethans-MacBook-Air ~ % 
