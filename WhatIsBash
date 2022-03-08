@@ -1,14 +1,8 @@
-Last login: Tue Mar  8 14:52:14 on ttys002
+Last login: Tue Mar  8 14:52:43 on ttys002
 ethandraper@Ethans-MacBook-Air ~ % which bash
 /bin/bash
-ethandraper@Ethans-MacBook-Air ~ % pwd
-/Users/ethandraper
-ethandraper@Ethans-MacBook-Air ~ % cd Desktop/MRI/499LabWork/GitHub/Example021622
-ethandraper@Ethans-MacBook-Air Example021622 % ls
-Reflection	Task1234BASH.sh	WhatIsBash	task1234	task1234.sh
-ethandraper@Ethans-MacBook-Air Example021622 % chmod +x ./Task1234BASH.sh
-ethandraper@Ethans-MacBook-Air Example021622 % ./Task1234BASH.sh
-Tue  8 Mar 2022 14:53:46 AST
+ethandraper@Ethans-MacBook-Air ~ % ./Task12345BASH.sh
+Tue  8 Mar 2022 14:57:12 AST
      March 2022
 Su Mo Tu We Th Fr Sa
        1  2  3  4  5
@@ -17,6 +11,9 @@ Su Mo Tu We Th Fr Sa
 20 21 22 23 24 25 26
 27 28 29 30 31
 
-/Users/ethandraper/Desktop/MRI/499LabWork/GitHub/Example021622
-Reflection	Task1234BASH.sh	WhatIsBash	task1234	task1234.sh
-ethandraper@Ethans-MacBook-Air Example021622 %
+/Users/ethandraper
+<Return>		Library			Public
+Desktop			Movies			Task12345BASH.sh
+Documents		Music
+Downloads		Pictures
+ethandraper@Ethans-MacBook-Air ~ %
