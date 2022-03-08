@@ -1,0 +1,12 @@
+Last login: Tue Mar  8 16:10:37 on ttys000
+ethandraper@Ethans-MacBook-Air ~ % echo date > date.sh
+ethandraper@Ethans-MacBook-Air ~ % cat date.sh
+date
+ethandraper@Ethans-MacBook-Air ~ % ./date.sh
+zsh: permission denied: ./date.sh
+ethandraper@Ethans-MacBook-Air ~ % bash date.sh
+Tue  8 Mar 2022 16:11:07 AST
+ethandraper@Ethans-MacBook-Air ~ % chmod +x date.sh
+ethandraper@Ethans-MacBook-Air ~ % ./date.sh
+Tue  8 Mar 2022 16:15:13 AST
+ethandraper@Ethans-MacBook-Air ~ % 
