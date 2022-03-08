@@ -1,0 +1,6 @@
+Last login: Tue Mar  8 09:41:43 on ttys001
+ethandraper@Ethans-MacBook-Air ~ % which bash
+/bin/bash
+ethandraper@Ethans-MacBook-Air ~ % task1234.sh
+zsh: command not found: task1234.sh
+ethandraper@Ethans-MacBook-Air ~ % 
