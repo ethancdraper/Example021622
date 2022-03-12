@@ -18,4 +18,18 @@ Users		dev		private		var
 ethandraper@Ethans-MacBook-Air / % cd /etc/
 ethandraper@Ethans-MacBook-Air /etc % cd ../home/linuxconfig/
 cd: no such file or directory: ../home/linuxconfig/
-ethandraper@Ethans-MacBook-Air /etc %
+ethandraper@Ethans-MacBook-Air /etc % cd ../home/ethandraper
+cd: no such file or directory: ../home/ethandraper
+ethandraper@Ethans-MacBook-Air /etc % chmod +x ethandraper
+chmod: ethandraper: No such file or directory
+ethandraper@Ethans-MacBook-Air /etc % home/ethandraper@Ethans-MacBook-Air
+zsh: no such file or directory: home/ethandraper@Ethans-MacBook-Air
+ethandraper@Ethans-MacBook-Air /etc % chmod +x ethandraper@Ethans-MacBook-Air
+chmod: ethandraper@Ethans-MacBook-Air: No such file or directory
+ethandraper@Ethans-MacBook-Air /etc % ../home/ethandraper/
+zsh: no such file or directory: ../home/ethandraper/
+ethandraper@Ethans-MacBook-Air /etc % pwd
+/etc
+ethandraper@Ethans-MacBook-Air /etc % ../home/Users/ethandraper
+zsh: no such file or directory: ../home/Users/ethandraper
+ethandraper@Ethans-MacBook-Air /etc % 
