@@ -1,0 +1,21 @@
+Last login: Sat Mar 12 16:31:31 on ttys000
+ethandraper@Ethans-MacBook-Air ~ % pwd
+/Users/ethandraper
+ethandraper@Ethans-MacBook-Air ~ % cd /
+ethandraper@Ethans-MacBook-Air / % pwd
+/
+ethandraper@Ethans-MacBook-Air / % cd home/
+ethandraper@Ethans-MacBook-Air /home % pwd
+/home
+ethandraper@Ethans-MacBook-Air /home % cd ..
+ethandraper@Ethans-MacBook-Air / % pwd
+/
+ethandraper@Ethans-MacBook-Air / % ls
+Applications	Volumes		etc		sbin
+Library		bin		home		tmp
+System		cores		opt		usr
+Users		dev		private		var
+ethandraper@Ethans-MacBook-Air / % cd /etc/
+ethandraper@Ethans-MacBook-Air /etc % cd ../home/linuxconfig/
+cd: no such file or directory: ../home/linuxconfig/
+ethandraper@Ethans-MacBook-Air /etc %
