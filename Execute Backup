@@ -1,0 +1,12 @@
+Last login: Sat Mar 12 21:17:01 on ttys000
+ethandraper@Ethans-MacBook-Air ~ % cd Desktop/MRI/499LabWork/GitHub/Example021622
+ethandraper@Ethans-MacBook-Air Example021622 % ls
+Date			RelativeVsAbsolutePath	backup.sh
+Date.sh			Script Execution	hello-world.sh
+Execute Hello World	Task1234BASH.sh		task1234
+Reflection		WhatIsBash		task1234.sh
+ethandraper@Ethans-MacBook-Air Example021622 % chmod +x backup.sh
+ethandraper@Ethans-MacBook-Air Example021622 % ./backup.sh
+tar: /home/ethandraper: Cannot stat: No such file or directory
+tar: Error exit delayed from previous errors.
+ethandraper@Ethans-MacBook-Air Example021622 %
