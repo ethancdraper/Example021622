@@ -1,0 +1,11 @@
+Last login: Sat Mar 12 20:44:47 on ttys000
+ethandraper@Ethans-MacBook-Air ~ % cd Desktop/MRI/499LabWork/GitHub/Example021622
+ethandraper@Ethans-MacBook-Air Example021622 % ls
+Date			RelativeVsAbsolutePath	hello-world.sh
+Date.sh			Script Execution	task1234
+Execute Hello World	Task1234BASH.sh		task1234.sh
+Reflection		WhatIsBash
+ethandraper@Ethans-MacBook-Air Example021622 % chmod +x hello-world.sh
+ethandraper@Ethans-MacBook-Air Example021622 % ./hello-world.sh
+Hello World
+ethandraper@Ethans-MacBook-Air Example021622 %
