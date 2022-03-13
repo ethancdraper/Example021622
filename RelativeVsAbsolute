@@ -1,13 +1,13 @@
-Last login: Sat Mar 12 16:31:31 on ttys000
+Last login: Sat Mar 12 20:23:00 on ttys001
 ethandraper@Ethans-MacBook-Air ~ % pwd
 /Users/ethandraper
 ethandraper@Ethans-MacBook-Air ~ % cd /
 ethandraper@Ethans-MacBook-Air / % pwd
 /
-ethandraper@Ethans-MacBook-Air / % cd home/
-ethandraper@Ethans-MacBook-Air /home % pwd
-/home
-ethandraper@Ethans-MacBook-Air /home % cd ..
+ethandraper@Ethans-MacBook-Air / % cd Users/
+ethandraper@Ethans-MacBook-Air /Users % pwd
+/Users
+ethandraper@Ethans-MacBook-Air /Users % cd ..
 ethandraper@Ethans-MacBook-Air / % pwd
 /
 ethandraper@Ethans-MacBook-Air / % ls
@@ -16,20 +16,21 @@ Library		bin		home		tmp
 System		cores		opt		usr
 Users		dev		private		var
 ethandraper@Ethans-MacBook-Air / % cd /etc/
-ethandraper@Ethans-MacBook-Air /etc % cd ../home/linuxconfig/
-cd: no such file or directory: ../home/linuxconfig/
-ethandraper@Ethans-MacBook-Air /etc % cd ../home/ethandraper
-cd: no such file or directory: ../home/ethandraper
-ethandraper@Ethans-MacBook-Air /etc % chmod +x ethandraper
-chmod: ethandraper: No such file or directory
-ethandraper@Ethans-MacBook-Air /etc % home/ethandraper@Ethans-MacBook-Air
-zsh: no such file or directory: home/ethandraper@Ethans-MacBook-Air
-ethandraper@Ethans-MacBook-Air /etc % chmod +x ethandraper@Ethans-MacBook-Air
-chmod: ethandraper@Ethans-MacBook-Air: No such file or directory
-ethandraper@Ethans-MacBook-Air /etc % ../home/ethandraper/
-zsh: no such file or directory: ../home/ethandraper/
+ethandraper@Ethans-MacBook-Air /etc % cd ../Users/ethandraper
+ethandraper@Ethans-MacBook-Air ~ % pwd
+/Users/ethandraper
+ethandraper@Ethans-MacBook-Air ~ % cd -
+/etc
 ethandraper@Ethans-MacBook-Air /etc % pwd
 /etc
-ethandraper@Ethans-MacBook-Air /etc % ../home/Users/ethandraper
-zsh: no such file or directory: ../home/Users/ethandraper
-ethandraper@Ethans-MacBook-Air /etc % 
+ethandraper@Ethans-MacBook-Air /etc % cd -
+~
+ethandraper@Ethans-MacBook-Air ~ % pwd
+/Users/ethandraper
+ethandraper@Ethans-MacBook-Air ~ % cd ../../
+ethandraper@Ethans-MacBook-Air / % pwd
+/
+ethandraper@Ethans-MacBook-Air / % cd
+ethandraper@Ethans-MacBook-Air ~ % pwd
+/Users/ethandraper
+ethandraper@Ethans-MacBook-Air ~ %
