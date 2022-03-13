@@ -1,0 +1,25 @@
+Last login: Sat Mar 12 20:56:33 on ttys000
+ethandraper@Ethans-MacBook-Air ~ % ls
+0_xvz			Library			Task12345BASH.sh
+<Return>		Movies			date.sh
+Desktop			Music			hello-world.sh
+Documents		Pictures
+Downloads		Public
+ethandraper@Ethans-MacBook-Air ~ % ls -l
+total 40
+-rwxr-xr-x@  1 ethandraper  staff    16  8 Mar 15:39 0_xvz
+-rw-r--r--   1 ethandraper  staff    16  7 Feb 13:47 <Return>
+drwx------+ 18 ethandraper  staff   576 12 Mar 20:35 Desktop
+drwx------@  6 ethandraper  staff   192  8 Feb 14:55 Documents
+drwx------+ 12 ethandraper  staff   384 12 Mar 16:55 Downloads
+drwx------@ 85 ethandraper  staff  2720 17 Jan 14:17 Library
+drwx------   6 ethandraper  staff   192  1 Dec 11:19 Movies
+drwx------+  5 ethandraper  staff   160 15 Feb 12:17 Music
+drwx------+  5 ethandraper  staff   160 15 Feb 12:18 Pictures
+drwxr-xr-x+  5 ethandraper  staff   160 16 Oct 09:34 Public
+-rwxr-xr-x@  1 ethandraper  staff    29  8 Mar 13:57 Task12345BASH.sh
+-rwxr-xr-x   1 ethandraper  staff     5  8 Mar 16:10 date.sh
+-rwxr-xr-x   1 ethandraper  staff    10 12 Mar 20:56 hello-world.sh
+ethandraper@Ethans-MacBook-Air ~ % ls -l hello-world.sh
+-rwxr-xr-x  1 ethandraper  staff  10 12 Mar 20:56 hello-world.sh
+ethandraper@Ethans-MacBook-Air ~ %
